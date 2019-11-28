@@ -69,6 +69,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Utils\AddFunction.cs" />
     <Compile Include="Utils\CommonMethods.cs" />
     <Compile Include="Utils\ConstantUtils.cs" />
     <Compile Include="Utils\Driver.cs" />

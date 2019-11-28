@@ -98,19 +98,19 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="AcceptanceTest\Features\Item.feature.cs">
+    <Compile Include="AcceptanceTest\Features\Itemadd.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Item.feature</DependentUpon>
+      <DependentUpon>Itemadd.feature</DependentUpon>
     </Compile>
-    <Compile Include="AcceptanceTest\Hooks\Add\AddItem.cs" />
+    <Compile Include="AcceptanceTest\Hooks\AddItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\Start.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="AcceptanceTest\Features\Item.feature">
+    <None Include="AcceptanceTest\Features\Itemadd.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>Item.feature.cs</LastGenOutput>
+      <LastGenOutput>Itemadd.feature.cs</LastGenOutput>
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
@@ -120,6 +120,9 @@
       <Project>{92827FF8-9AF9-4D71-8C62-3BEDFC0DEEBB}</Project>
       <Name>SpecflowPages</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AcceptanceTest\Hooks\Add\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
